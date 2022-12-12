@@ -1,6 +1,6 @@
 CREATE DATABASE web
 
-CREATE TABLE web_users(id SERIAL NOT NULL, fullname VARCHAR NOT NULL, login VARCHAR NOT NULL, password NOT NULL);
+CREATE TABLE web_users(id SERIAL NOT NULL, fullname VARCHAR NOT NULL, login VARCHAR NOT NULL, password VARCHAR NOT NULL);
 
 INSERT INTO web_users(fullname, login, password) VALUES ('Ivanov Ivan', 'ivanov', '123456');
 INSERT INTO web_users(fullname, login, password) VALUES ('Aksakov Boris', 'aboris', '035790');
